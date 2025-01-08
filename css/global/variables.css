@@ -1,0 +1,6 @@
+:root {
+    --textFont: "Bricolage Grotesque", sans-serif;
+    --pFont: 'Inter', serif;
+    --textColor: #FFFFFF;
+    --bgCard: linear-gradient(#0047ab, #1ca9c9);
+}
