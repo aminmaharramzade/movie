@@ -110,3 +110,56 @@ body {
   display: none;
   color: #21242d;
 }
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  #input {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .header-input {
+    position: relative;
+  }
+
+  .header-input i {
+    position: absolute;
+    top: 30px;
+  }
+
+
+  .section-famous {
+    gap: 20px;
+  }
+
+  .famous-box {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .famous-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .famous-btn {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+

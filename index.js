@@ -30,7 +30,7 @@ function findMovie(title) {
           button.addEventListener("click", function () {
             const imdbID = this.getAttribute("data-imdbid");
             localStorage.setItem("selectedMovieID", imdbID);
-            location.href = "http:/pages/details.html";
+            location.href = "./pages/details.html";
           });
         });
       } else {

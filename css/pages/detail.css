@@ -47,3 +47,28 @@ body {
   font-family: var(--pFont);
   letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .section-detail {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .detail-head h1 {
+    font-size: 48px;
+  }
+
+  .detail-head h2 {
+    font-size: 18px;
+    width: 100px;
+  }
+
+  .detail-head p {
+    font-size: 16px;
+  }
+}
